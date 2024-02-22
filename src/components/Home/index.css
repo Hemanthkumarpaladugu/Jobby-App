@@ -1,0 +1,60 @@
+/* Styles for the container holding the content of the home page */
+.home-container {
+    padding: 40px; /* Padding around the content */
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png'); /* Background image URL */
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover; /* Ensure the background image covers the container */
+  }
+  
+  /* Styles for the main heading of the home page */
+  .home-heading {
+    color: #ffffff; /* Text color */
+    font-family: 'Roboto'; /* Font family */
+    font-size: 50px; /* Font size */
+  }
+  
+  /* Styles for the paragraph providing information about job searching */
+  .home-paragraph {
+    color: #ffffff; /* Text color */
+    font-family: 'Roboto'; /* Font family */
+    font-size: 25px; /* Font size */
+    width: 50%; /* Width of the paragraph */
+  }
+  
+  /* Styles for the button used to find jobs */
+  .home-jobs-button {
+    color: #ffffff; /* Text color */
+    background-color: #6366f1; /* Background color */
+    border: 0; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100px; /* Width of the button */
+    font-weight: bold; /* Bold text */
+    font-size: 15px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    padding: 5px; /* Padding inside the button */
+    height: 40px; /* Height of the button */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  /* Styles for the link that wraps the button */
+  .retry-btn-link {
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  /* Media query for screens with a maximum width of 767px */
+  @media screen and (max-width: 767px) {
+    .home-container {
+      padding: 15px; /* Reduced padding for smaller screens */
+      flex-grow: 1; /* Allow the container to grow within its flex container */
+    }
+  
+    .home-heading {
+      font-size: 25px; /* Adjusted font size for smaller screens */
+    }
+  
+    .home-paragraph {
+      font-size: 20px; /* Adjusted font size for smaller screens */
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  

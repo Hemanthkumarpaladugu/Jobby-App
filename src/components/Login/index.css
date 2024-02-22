@@ -1,0 +1,79 @@
+/* Styles for the outer container of the login form */
+.login-container {
+    background-color: #000000; /* Background color */
+    height: 100vh; /* Full height of the viewport */
+    padding-top: 30px; /* Top padding */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange children in a row */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  /* Styles for the main container of the login form */
+  .login-form-container {
+    background-color: #272727; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 40px; /* Padding inside the container */
+    width: 40%; /* Width of the container */
+  }
+  
+  /* Styles for the container holding the logo */
+  .form-logo-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange children in a row */
+    justify-content: center; /* Center content horizontally */
+    padding: 20px; /* Padding around the logo */
+  }
+  
+  /* Styles for form labels */
+  .form-label {
+    color: #ffffff; /* Text color */
+    font-weight: 500; /* Font weight */
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+  }
+  
+  /* Styles for form input fields */
+  .form-input {
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #7e858e; /* Border style and color */
+    color: #ffffff; /* Text color */
+    width: 100%; /* Full width */
+    height: 40px; /* Height of the input field */
+    background-color: transparent; /* Transparent background */
+    margin-top: 5px; /* Top margin */
+    font-size: 15px; /* Font size */
+  }
+  
+  /* Styles for the form submit button */
+  .form-submit-button {
+    color: #ffffff; /* Text color */
+    background-color: #6366f1; /* Background color */
+    border: 0; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    font-weight: bold; /* Bold text */
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    padding: 5px; /* Padding inside the button */
+    height: 40px; /* Height of the button */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  /* Styles for error messages */
+  .error-message {
+    color: #ff0b37; /* Text color */
+    font-family: 'Roboto'; /* Font family */
+  }
+  
+  /* Media query for screens with a maximum width of 767px */
+  @media screen and (max-width: 767px) {
+    .login-container {
+      padding: 15px; /* Reduced padding for smaller screens */
+    }
+  
+    .login-form-container {
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  

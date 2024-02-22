@@ -1,0 +1,242 @@
+/* Styling for the main container of the AllJobs component */
+.all-jobs-container {
+    background-color: #000000;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  /* Styling for the heading of the jobs section */
+  .jobs-heading {
+    color: #ffffff;
+  }
+  
+  /* Styling for the side bar container */
+  .side-bar-container {
+    width: 25%;
+  }
+  
+  /* Styling for the profile container in the side bar */
+  .profile-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    padding: 25px;
+    width: 100%;
+    height: 35vh;
+    border-radius: 25px;
+  }
+  
+  /* Styling for the profile icon */
+  .profile-icon {
+    color: blue;
+    font-size: 50px;
+  }
+  
+  /* Styling for the profile name */
+  .profile-name {
+    color: #505068;
+    font-family: 'Roboto';
+  }
+  
+  /* Styling for the profile description */
+  .profile-description {
+    font-family: 'Roboto';
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Styling for the horizontal line */
+  .hr-line {
+    border: 2px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Styling for the text elements in the side bar */
+  .text {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  /* Styling for the checkboxes container */
+  .check-boxes-container {
+    list-style: none;
+  }
+  
+  /* Styling for each list item in the checkboxes container */
+  .li-container {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the checkbox input */
+  .input {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the label associated with the checkbox */
+  .label {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  /* Styling for the radio input */
+  .radio {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the loader container */
+  .loader-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Styling for the failure view button container */
+  .failure-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+  }
+  
+  /* Styling for the failure image */
+  .failure-img {
+    width: 90%;
+    height: 350px;
+  }
+  
+  /* Styling for the failure button */
+  .failure-button {
+    color: #ffffff;
+    background-color: #6366f1;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Styling for the jobs container */
+  .jobs-container {
+    width: 72%;
+    height: 100%;
+  }
+  
+  /* Styling for the failure view button container for jobs */
+  .jobs-failure-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Styling for the failure heading */
+  .failure-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  
+  /* Styling for the failure paragraph */
+  .failure-paragraph {
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  
+  /* Styling for the search input */
+  .search-input {
+    background-color: transparent;
+    border: 2px solid grey;
+    border-right: none;
+    height: 40px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  /* Styling for the search button */
+  .search-button {
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 39px;
+    cursor: pointer;
+    border: 0;
+    background-color: #202020;
+  }
+  
+  /* Styling for the search icon */
+  .search-icon {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  /* Styling for the container when no jobs are found */
+  .no-jobs-container {
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  
+  /* Styling for the image in the no jobs container */
+  .no-jobs-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Media query for screens with a maximum width of 767px */
+  @media screen and (max-width: 767px) {
+    .all-jobs-container {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    /* Full width for the side bar container on smaller screens */
+    .side-bar-container {
+      width: 100%;
+    }
+  
+    /* Adjusted width for the search input on smaller screens */
+    .search-input {
+      width: 80%;
+    }
+  
+    /* Full width for the jobs container on smaller screens */
+    .jobs-container {
+      width: 100%;
+    }
+  
+    /* Full width for the list items in the jobs container on smaller screens */
+    .ul-job-items-container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    /* Adjusted width for the failure image on smaller screens */
+    .failure-img {
+      width: 90%;
+      height: 90%;
+    }
+  }
+  
